@@ -1,0 +1,19 @@
+.board{
+    border:2px solid black;
+    width:40%;
+    height: 30vw;
+    margin: auto;
+}
+
+.playBtn{   
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto 10px auto; 
+    background-color: #aade32;
+    text-align: center;   
+    color:white;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
