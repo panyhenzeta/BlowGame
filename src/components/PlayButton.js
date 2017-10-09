@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class PlayButton extends Component{
-
+class PlayButton extends Component{  
     play(){
-        alert("Let's play the game");
+     this.props.start();
     }
+
 
     render(){
         return(
-            <div className="playBtn" onClick={this.play}> Play </div>
+            <div className="playBtn" onClick={this.play.bind(this)}> Play </div>
         );
     }
 }

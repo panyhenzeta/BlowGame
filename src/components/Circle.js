@@ -1,12 +1,20 @@
 import React, {Component} from 'react';
 
 class Circle extends Component{
-    style={
-        border: 5,
-        borderRadius:50,
-        backgroundColor: '#ac12fe',
-        width:30,
-        height:30
+
+    circleStyle(size, position, color){
+        console.log(position);
+        let dim = size + 'px';
+        let style = {
+            width: dim,
+            height: dim,
+            backgroundColor: color,
+            top: position.top + 'px',
+            left: position.left + 'px',
+            position: 'absolute',
+            borderRadius:50,
+        }
+        return style;
     }
 
     blowCircle(e){       
@@ -15,7 +23,7 @@ class Circle extends Component{
    
     render(){
         return(
-             <div style={this.style} onClick={this.blowCircle.bind(this)}></div>
+             <div style={this.circleStyle} onClick={this.blowCircle.bind(this)}></div>
         );       
     }
 
