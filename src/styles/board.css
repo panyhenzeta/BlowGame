@@ -1,20 +1,20 @@
-.board{
-    border:2px solid black;
-    width:40%;
-    height: 30vw;
+.board{    
     margin: auto;
 }
 
-.playBtn{   
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
-    margin: 10px auto 10px auto; 
-    background-color: #aade32;
+.playBtn{     
+    background-color: #64DD17;
     text-align: center;   
     color:white;
     font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
 
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #df12ab;
+    position: absolute;
+    transition: all 0.1s ease;
 }
