@@ -1,8 +1,13 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+}
+
 .board{    
-    margin: auto;
+    margin: auto;    
 }
 
 .playBtn{     
+    border-radius: 50px;
     background-color: #64DD17;
     text-align: center;   
     color:white;
@@ -14,7 +19,6 @@
 
 .circle{
     border-radius: 50%;
-    background-color: #df12ab;
     position: absolute;
     transition: all 0.1s ease;
 }

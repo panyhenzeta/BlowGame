@@ -12,7 +12,7 @@ class Board extends Component{
       style: {
         width: BOARD_WIDTH + '%',
         height: BOARD_HEIGHT + 'vw',
-        border: BORDER_SIZE +'px solid black'
+        border: BORDER_SIZE +'px solid black'       
       }
     }
   }

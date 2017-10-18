@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import {CIRCLE_SIZE, CIRCLE_TOP} from '../constants/circleConst';
+import {CIRCLE_SIZE, CIRCLE_TOP, BACKGROUND_COLORS} from '../constants/circleConst';
 class Circle extends Component {
 
     constructor(props) {
@@ -9,7 +9,8 @@ class Circle extends Component {
             style: {
                 top: CIRCLE_TOP,
                 width: CIRCLE_SIZE,
-                height: CIRCLE_SIZE             
+                height: CIRCLE_SIZE,
+                backgroundColor: BACKGROUND_COLORS[5]          
             }
         }
     }
